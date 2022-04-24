@@ -5,6 +5,10 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_learning", "WPF_learning\WPF_learning.csproj", "{7555FA8C-AA00-4DE8-8DAB-4D853DF2385E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4F4DA032-129C-4931-B9EA-4FBFD344880B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_learningConsole", "Tests\WPF_learningConsole\WPF_learningConsole.csproj", "{4FF6C3D9-14E7-43AB-8041-33CFF554A130}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{7555FA8C-AA00-4DE8-8DAB-4D853DF2385E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7555FA8C-AA00-4DE8-8DAB-4D853DF2385E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7555FA8C-AA00-4DE8-8DAB-4D853DF2385E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FF6C3D9-14E7-43AB-8041-33CFF554A130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF6C3D9-14E7-43AB-8041-33CFF554A130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF6C3D9-14E7-43AB-8041-33CFF554A130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF6C3D9-14E7-43AB-8041-33CFF554A130}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4FF6C3D9-14E7-43AB-8041-33CFF554A130} = {4F4DA032-129C-4931-B9EA-4FBFD344880B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {064050E0-EC9C-43D8-BC84-640B3625587A}
